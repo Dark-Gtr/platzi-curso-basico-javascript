@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras greometicas | Curso Practico de JavaScript</title>
+    <link rel="stylesheet" href="figuras.css">
+</head>
+<body>
+    <h1>
+        Figuras Geometricas
+    </h1>
+    <div class="container">
+        
+        <div class="input__cuadrado">
+            <p>Vamos a calcular el Perimetro y el area del cuadrado<br>Ingrese cuando mide un lado del cuadrado: </p>
+            <p><input type="number" id="input__cuadrado--input" placeholder="ingresar..."></p>
+            <p> <button class="input__cuadrado--button" id="buttonCua">Calcular</button> </p>
+            <p id="text"></p>
+        </div>
+
+        <div class="input__triangulo">
+            <p>Vamos a calcular el Perimetro y el area del triangulo <br>Ingrese los lados del triangulo y la base:</p>
+            <p> <input type="number" id="input__triangulo--inputLeft" placeholder="Izquierda"> <input type="number" id="input__triangulo--inputRight" placeholder="Derecha"> <input type="number" id="input__triangulo--inputBase" placeholder="Base"> <input type="number" id="input__triangulo--inputAltura" placeholder="Altura"> </p>
+            <p> <button class="input__trangulo--button" id="buttonTri">Calcular</button> </p>
+            <p id="triangulo"></p>
+        </div>
+
+        <div class="input__circulo">
+            <p>Vamos a calcular la circunferencia y el area del circulo<br>ingresa el radio del circulo:</p>
+            <p> <input type="number" id="input__circulo--input" placeholder="Radio"> </p>
+            <p><button id="buttonCir">Calcular</button></p>
+            <p id="circulo"></p>
+        </div>
+
+    </div>
+    
+    
+    
+    <script src="figuras.js"></script>
+</body>
+</html>

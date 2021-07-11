@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    /*background-color: wheat;*/
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.container p{
+    margin: 10px;
+}
+
+.container input{
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 20px;
+    width: 13%;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+
+.container button{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 100px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 2px 0px;
+    /* position: inherit; */
+    border: none;
+    border-radius: 20px;
+}
+
+.container input::placeholder{
+    color: white;
+}
+
+.container input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.input__cuadrado{
+    background-color: rgb(0, 114, 114);
+    max-width: 61vh;
+    color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 0px 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /*align-items: flex-end;*/
+    text-align: center;
+}
+
+.input__triangulo{
+    background-color: firebrick;
+    max-width: 61vh;
+    color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 0px 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#input__triangulo--inputLeft{
+    width: 15%;
+}
+
+.input__circulo{
+    background-color: darkgreen;
+    margin: 5px;
+    max-width: 62vh;
+    color: white;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 0px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    
+    text-align: center;
+}
