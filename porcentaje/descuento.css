@@ -5,6 +5,7 @@ header{
 body{
     display: flex;
     flex-direction: column;
+    font-size: 4vh;
     
 }
 
@@ -37,4 +38,9 @@ form button{
     border: 2px black solid;
     border-radius: 20px;
     padding: 5px;
+}
+
+form div input{
+    width: 7vh;
+    margin-left: 5px;
 }

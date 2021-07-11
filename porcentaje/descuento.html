@@ -17,16 +17,20 @@
     <section>
         
         <form>
-
+            
             <label for="InputPrice">Escribe el precio de tu producto:</label>
             <input type="number" id="InputPrice" placeholder="Precio">
             
-            <label for="InputDiscount">Escribe el descuento de tu producto:</label>
-            <input type="number" id="InputDiscount" placeholder="Descuento">
+            <div>
+                <label for="InputCupon">Ingresa un cupon de descuento: </label>
+                <input type="text" id="InputCupon" maxlength="4" >  <input type="text" id="InputCupon2" maxlength="4">  <input type="text" id="InputCupon3" maxlength="4">  <input type="text" id="InputCupon4" maxlength="4">
+            </div>
             
             <button type="button" onclick="calcularDescuento()">Calcular</button>
+        
+            <p id="resultado"></p>
         </form>
-        <div id="resultado"></div>
+        
 
     </section>
 
