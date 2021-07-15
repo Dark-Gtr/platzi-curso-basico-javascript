@@ -1,0 +1,13 @@
+* {
+    font-family: 'roboto', sans-serif;
+    font-size: 3vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #009688;
+    color: white;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediana</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mediana.css">
+
+</head>
+<body>
+    <header><a href="http://127.0.0.1:5500/index.html"><img src="../src/casa-web.png"></a> Calculando Mediana <div></div></header>
+    
+    <p style="text-align: center;">vamos a calcular la mediana de un array<br> ingresa los datos que se van a guardar en el array</p>
+
+    <section class="container">
+        <div class="container__Add">
+            <label for="inputAdd">ingresa los datos: </label>
+            <input type="number" id="inputAdd"> <button type="button" onclick="addToList()"><img src="../src/button-add.svg"></button>
+
+        </div>
+
+        <div class="container__Array">
+            <p id="container__Array--list"></p>
+            
+        </div>
+        
+    </section>
+    <div style="text-align: center;">
+        
+        <p><button type="button" class="btncal" onclick="operation()">Calcular la Mediana</button></p>
+        
+        <p id="resultado"></p>
+
+    </div>
+    
+    <script src="mediana.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    font-family: 'roboto', sans-serif;
+    font-size: 3vh;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #009688;
+    color: white;
+}
+
+header img{
+    width: 7vh;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+
+.container__Add {
+    display: flex;
+    border: 2px white solid;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0px 7px;
+    align-items: center;
+    
+}
+
+.container__Add input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px white solid;
+    margin: 0px 5px;
+    background-color: transparent;
+    width: 10vh;
+    color: #00ff0a;
+    outline: none;
+    font-size: 2vh;
+    text-align: center;
+
+}
+
+.container__Add input::placeholder{
+    color: white;
+}
+
+.container__Add input::-webkit-inner-spin-button, ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+.container__Add button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+.container__Add img {
+    
+    width: 6vh;
+    margin-top: 4px;
+}
+
+.container__Array {
+    text-align: center;
+    border: 2px #00bcd4 solid;
+    padding: 0px 7px;
+}
+
+.container__Array button{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: white;
+    border: 2px white solid;
+}
+
+.btncal {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: white;
+    border: 2px white solid;
+}

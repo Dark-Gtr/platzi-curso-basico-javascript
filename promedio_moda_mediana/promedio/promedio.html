@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="promedio.css">
+</head>
+<body>
+    <header><a href="http://127.0.0.1:5500/index.html"><img src="../src/casa-web.png"></a> Calculando Promedio <div></div></header>
+
+    <section class="container">
+
+        <div class="Input">
+            <label for="InputSalario">Agrega un salario <font color= #00ff0a > $ </font></label>
+            <input type="number" id="InputSalario" placeholder="Ingresar...">
+            <button type="button" onclick="addSalario()">Agregar</button>
+        </div>
+    
+        <div class="salarios">
+            <div id="resultado"></div>
+        </div>
+
+
+    </section>
+        <p id="promedio"></p>
+    
+    <script src="promedio.js"></script>
+
+</body>
+</html>
